@@ -11,7 +11,7 @@ node {
         bat "dir"
         bat "mvn clean install"
         bar "dir"
-        dir("fadv/target") {
+        dir("target") {
             bat "dir"
             bat "java -cp fadv-1.0-SNAPSHOT.jar;%CLASSPATH% com.quickrworld.test.fadv.App"
         }
