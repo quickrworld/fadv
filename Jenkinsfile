@@ -13,7 +13,7 @@ node {
         bar "dir"
         dir("target") {
             bat "dir"
-            bat "java -cp C:\Users\Amitabh\.m2\repository\com\quickrworld\test\fadv\fadv\1.0-SNAPSHOT\fadv-1.0-SNAPSHOT.jar;%CLASSPATH% com.quickrworld.test.fadv.App"
+            bat "java -cp C:\\Users\\Amitabh\\.m2\\repository\\com\\quickrworld\\test\\fadv\\fadv\\1.0-SNAPSHOT\\fadv-1.0-SNAPSHOT.jar;%CLASSPATH% com.quickrworld.test.fadv.App"
         }
     }
 }
