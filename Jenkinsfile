@@ -1,5 +1,7 @@
 node {
     stage ("git checkout") {
+        bat "cd"
+        bat "dir"
         git "https://github.com/quickrworld/fadv.git"
         bat "cd"
         bat "dir"
