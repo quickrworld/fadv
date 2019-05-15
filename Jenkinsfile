@@ -4,10 +4,10 @@ node {
     }
     stage ("Build") {
         dir("fadv") {
+            bat "dir"
             bat "mvn clean install"
         }
         dir("fadv/target") {
-            bat "dir"
             bat "java -cp fadv-1.0-SNAPSHOT.jar;%CLASSPATH% com.quickrworld.test.fadv.App"
         }
     }
